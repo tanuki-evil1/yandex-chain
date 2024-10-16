@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "yandex-chain"
+version = "0.1.0"
+description = ""
+authors = ["tanuki <tanuki.evil@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.3.3"
+yandexcloud = "^0.321.0"
+langchain-community = "^0.3.2"
+python-dotenv = "^1.0.1"
+pypdf = "^5.0.1"
+faiss-gpu = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
