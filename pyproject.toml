@@ -13,6 +13,11 @@ langchain-community = "^0.3.2"
 python-dotenv = "^1.0.1"
 pypdf = "^5.0.1"
 faiss-gpu = "^1.7.2"
+langgraph = "^0.2.38"
+langchain-postgres = "^0.0.12"
+psycopg = "^3.2.3"
+psycopg-pool = "^3.2.3"
+langgraph-checkpoint-postgres = "^2.0.1"
 
 
 [build-system]
